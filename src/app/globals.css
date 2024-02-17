@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#react-select-3-input {
+  @apply !text-base-content;
+}

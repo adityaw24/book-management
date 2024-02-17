@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"checkJs": true,
+		// "strict": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"types": ["node"],
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": [
+				"src/*"
+			],
+			"react": [
+				"./node_modules/@types/react"
+			]
+		}
+	},
+	"include": [
+		"src/**/*.js",
+		"src/**/*.jsx",
+		"src/**/*.d.ts",
+		"src/**/*.json",
+	]
+}
